@@ -13,7 +13,9 @@ Minha configuração pessoal do Arch Linux usando Hyprland.
 - Configurações de terminal
 - Scripts para produtividade
 
-- <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ebcdcf6e-3c1f-41a6-b11c-ebadb43cb0b1" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ebcdcf6e-3c1f-41a6-b11c-ebadb43cb0b1" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a9ebc155-1220-4891-bde8-9c54ae615d37" />
+
 
 
 ## 📦 Instalação
