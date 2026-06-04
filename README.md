@@ -15,10 +15,6 @@ Minha configuração pessoal do Arch Linux usando Hyprland.
 
 - <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ebcdcf6e-3c1f-41a6-b11c-ebadb43cb0b1" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/265f0b68-7bdf-44c5-8f37-85beb96869bc" />
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a30cb457-ad0c-4fb6-b988-8ebc54efd58d" />
-
 
 ## 📦 Instalação
 
