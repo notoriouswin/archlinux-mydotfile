@@ -1,53 +1,88 @@
 # 🐧 Arch Linux Dotfiles
 
-Minha configuração pessoal do Arch Linux.
+Minha configuração pessoal do Arch Linux usando Hyprland.
 
-## ✨ O que tem aqui
+## ✨ Recursos
 
+- Hyprland
+- Waybar
 - Zsh
 - Oh My Zsh
+- Hyprpaper
 - Aliases personalizados
-- Configurações do terminal
-- Temas e customizações
-- Scripts úteis para o dia a dia
+- Configurações de terminal
+- Scripts para produtividade
 
 ## 📦 Instalação
-
-Clone o repositório:
 
 ```bash
 git clone git@github.com:notoriouswin/archlinux-mydotfile.git
 cd archlinux-mydotfile
 ```
 
-Copie os arquivos para o diretório home:
+Copie os arquivos para sua home:
 
 ```bash
 cp -r . ~/
 ```
 
-Ou crie links simbólicos:
+Ou utilize links simbólicos:
 
 ```bash
 ln -sf ~/archlinux-mydotfile/.zshrc ~/.zshrc
 ```
 
-## 🖥️ Ambiente
+## 🖥️ Componentes
 
 | Componente | Software |
 |------------|----------|
+| WM | Hyprland |
+| Barra | Waybar |
+| Wallpaper | Hyprpaper |
 | Shell | Zsh |
 | Framework | Oh My Zsh |
 | Sistema | Arch Linux |
 
-## 📸 Preview
+## 🎨 Personalização
 
-Adicione screenshots da sua área de trabalho aqui.
+### Waybar
+
+As configurações da Waybar podem ser encontradas no diretório correspondente dentro deste repositório. Sinta-se à vontade para modificar módulos, cores e layout conforme sua preferência.
+
+### Wallpaper
+
+Para trocar o wallpaper, basta alterar a imagem utilizada pelo Hyprpaper no diretório de configuração do Hyprland/Hyprpaper.
+
+```bash
+~/.config/hypr/
+```
+
+ou
+
+```bash
+~/.config/hypr/hyprpaper.conf
+```
+
+Basta apontar para a imagem desejada e recarregar o Hyprpaper.
+
+## 📂 Estrutura
+
+```text
+.config/
+├── hypr/
+├── waybar/
+├── zsh/
+└── ...
+```
 
 ## 🚀 Objetivo
 
-Manter minhas configurações organizadas, versionadas e fáceis de restaurar em uma nova instalação do Arch Linux.
+Manter minhas configurações do Arch Linux organizadas, versionadas e fáceis de restaurar em qualquer máquina.
+
+## 🤝 Contribuições
+
+Sinta-se à vontade para abrir Issues ou Pull Requests com melhorias e sugestões.
 
 ## 📄 Licença
 
-MIT License.
+MIT License
