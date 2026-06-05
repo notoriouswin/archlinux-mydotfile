@@ -18,31 +18,25 @@ Minha configuração pessoal do Arch Linux usando Hyprland.
 
 
 
-## 📦 Instalação
+## 📦 Instalação de dependências
+
+Antes de aplicar as dotfiles, instale os pacotes necessários:
+
+```bash
+sudo pacman -S ttf-jetbrains-mono-nerd nautilus hyprpaper waybar zsh cava cmatrix tty-clock git curl
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+📥 Instalação das Dotfiles
+Clone o repositório:
 
 ```bash
 git clone git@github.com:notoriouswin/archlinux-mydotfile.git
 cd archlinux-mydotfile
-```
-
-Copie os arquivos para sua home:
-
-```bash
 cp -r . ~/
 ```
 
-
-
-## 🖥️ Componentes
-
-| Componente | Software |
-|------------|----------|
-| WM | Hyprland |
-| Barra | Waybar |
-| Wallpaper | Hyprpaper |
-| Shell | Zsh |
-| Framework | Oh My Zsh |
-| Sistema | Arch Linux |
 
 ## 🎨 Personalização
 
@@ -54,11 +48,6 @@ As configurações da Waybar podem ser encontradas no diretório correspondente 
 
 Para trocar o wallpaper, basta alterar a imagem utilizada pelo Hyprpaper no diretório de configuração do Hyprland/Hyprpaper.
 
-```bash
-~/.config/hypr/
-```
-
-ou
 
 ```bash
 ~/.config/hypr/hyprpaper.conf
@@ -66,15 +55,31 @@ ou
 
 Basta apontar para a imagem desejada e recarregar o Hyprpaper.
 
-## 📂 Estrutura
 
-```text
-.config/
-├── hypr/
-├── waybar/
-├── zsh/
-└── ...
-```
+## ⚙️ Extras no terminal
+
+- **cmatrix**: inicia no terminal com tema azul (`cmatrix -C blue` ou `cmatrix -C 2`)
+- **tty-clock**: inicia centralizado, estilizado e com cor azul (`tty-clock -c -C 2 -t`).
+- **Zsh plugins e atalhos**:
+  - `Ctrl + Alt` → abre menu rápido de pastas para navegação.
+  - `Ctrl + R` → busca no histórico de comandos.
+
+
+
+## 🖥️ Componentes do sistema
+| Componente              | Software   |
+| ----------------------- | ---------- |
+| WM                      | Hyprland   |
+| Barra                   | Waybar     |
+| Wallpaper               | Hyprpaper  |
+| Shell                   | Zsh        |
+| Framework               | Oh My Zsh  |
+| Gerenciador de arquivos | Nautilus   |
+| Terminal visual         | Cava       |
+| Efeitos no terminal     | Cmatrix    |
+| Relógio no terminal     | TTY-Clock  |
+| Sistema base            | Arch Linux |
+
 
 ## 🚀 Objetivo
 
