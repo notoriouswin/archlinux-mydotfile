@@ -64,21 +64,6 @@ Basta apontar para a imagem desejada e recarregar o Hyprpaper.
 
 
 
-## 🖥️ Componentes do sistema
-| Componente              | Software   |
-| ----------------------- | ---------- |
-| WM                      | Hyprland   |
-| Barra                   | Waybar     |
-| Wallpaper               | Hyprpaper  |
-| Shell                   | Zsh        |
-| Framework               | Oh My Zsh  |
-| Gerenciador de arquivos | Nautilus   |
-| Terminal visual         | Cava       |
-| Efeitos no terminal     | Cmatrix    |
-| Relógio no terminal     | TTY-Clock  |
-| Sistema base            | Arch Linux |
-
-
 ## 🚀 Objetivo
 
 Manter minhas configurações do Arch Linux organizadas, versionadas e fáceis de restaurar em qualquer máquina.
