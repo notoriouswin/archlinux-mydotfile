@@ -41,9 +41,6 @@ cp -r . ~/
 
 ## 🎨 Personalização
 
-### Waybar
-
-As configurações da Waybar podem ser encontradas no diretório correspondente dentro deste repositório. Sinta-se à vontade para modificar módulos, cores e layout conforme sua preferência.
 
 ### Wallpaper
 
