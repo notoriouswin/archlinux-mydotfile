@@ -4,13 +4,14 @@ Minha configuração pessoal do Arch Linux usando Hyprland.
 
 ## ✨ Recursos
 
-- Hyprland
-- Waybar
-- Zsh
-- Oh My Zsh
-- Hyprpaper
-- Aliases personalizados
-- Configurações de terminal
+- 🪟 **Hyprland** → window manager moderno e eficiente
+- 📊 **Waybar** → barra de status totalmente customizável
+- 🐚 **Zsh** → shell poderoso e produtivo
+- ⚡ **Oh My Zsh** → framework para personalização do Zsh
+- 🖼️ **Hyprpaper** → gerenciamento dinâmico de wallpapers
+- 🔧 **Aliases personalizados** → atalhos para agilizar comandos
+- 💻 **Configurações de terminal** → ambiente otimizado para desenvolvimento
+- 🚀 **Scripts de produtividade** → automações para fluxo de trabalho mais rápido
 - Scripts para produtividade
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ebcdcf6e-3c1f-41a6-b11c-ebadb43cb0b1" />
