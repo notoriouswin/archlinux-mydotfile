@@ -1,27 +1,26 @@
 # 🐧 Arch Linux Dotfiles
 
-Minha configuração pessoal do Arch Linux usando Hyprland.
+My personal Arch Linux setup using Hyprland.
 
-## ✨ Recursos
+## ✨ Features
 
-- 🪟 **Hyprland** → window manager moderno e eficiente
-- 📊 **Waybar** → barra de status totalmente customizável
-- 🐚 **Zsh** → shell poderoso e produtivo
-- ⚡ **Oh My Zsh** → framework para personalização do Zsh
-- 🖼️ **Hyprpaper** → gerenciamento dinâmico de wallpapers
-- 🔧 **Aliases personalizados** → atalhos para agilizar comandos
-- 💻 **Configurações de terminal** → ambiente otimizado para desenvolvimento
-- 🚀 **Scripts de produtividade** → automações para fluxo de trabalho mais rápido
-- Scripts para produtividade
+- 🪟 **Hyprland** → modern and efficient window manager
+- 📊 **Waybar** → fully customizable status bar
+- 🐚 **Zsh** → powerful and productive shell
+- ⚡ **Oh My Zsh** → framework for customizing Zsh
+- 🖼️ **Hyprpaper** → program for setting wallpapers
+- 🔧 **Personalized aliases** → shortcuts to speed up commands
+- 💻 **Terminal Settings** → optimized development environment
+- 🚀 **Productivity scripts** → automations for faster workflow and scripts for productivity
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ebcdcf6e-3c1f-41a6-b11c-ebadb43cb0b1" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a9ebc155-1220-4891-bde8-9c54ae615d37" />
 
 
 
-## 📦 Instalação de dependências
+## 📦 Installing dependencies
 
-Antes de aplicar as dotfiles, instale os pacotes necessários:
+Before applying the dotfiles, install the necessary packages:
 
 ```bash
 sudo pacman -S ttf-jetbrains-mono-nerd nautilus hyprpaper waybar zsh cava cmatrix tty-clock git curl
@@ -29,8 +28,8 @@ sudo pacman -S ttf-jetbrains-mono-nerd nautilus hyprpaper waybar zsh cava cmatri
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-📥 Instalação das Dotfiles
-Clone o repositório:
+📥 Dotfiles Installation
+Clone the repository:
 
 ```bash
 git clone git@github.com:notoriouswin/archlinux-mydotfile.git
@@ -39,39 +38,39 @@ cp -r . ~/
 ```
 
 
-## 🎨 Personalização
+## 🎨 Customization
 
 
 ### Wallpaper
 
-Para trocar o wallpaper, basta alterar a imagem utilizada pelo Hyprpaper no diretório de configuração do Hyprland/Hyprpaper.
+To change the wallpaper, simply modify the image used by Hyprpaper in the Hyprland/Hyprpaper configuration directory.
 
 
 ```bash
 ~/.config/hypr/hyprpaper.conf
 ```
 
-Basta apontar para a imagem desejada e recarregar o Hyprpaper.
+Simply set monitor, image and cover mode.
 
 
-## ⚙️ Extras no terminal
+## ⚙️ Extras in the terminal
 
-- **cmatrix**: inicia no terminal com tema azul (`cmatrix -C blue` ou `cmatrix -C 2`)
-- **tty-clock**: inicia centralizado, estilizado e com cor azul (`tty-clock -c -C 2 -t`).
-- **Zsh plugins e atalhos**:
-  - `Ctrl + Alt` → abre menu rápido de pastas para navegação.
-  - `Ctrl + R` → busca no histórico de comandos.
+- **cmatrix**: start like this for blue theme (`cmatrix -C blue`)
+- **tty-clock**: start like this for blue theme, seconds, and time in center (`tty-clock -c -s -C 4`).
+- **Zsh plugins and shortcuts**:
+  - `Ctrl + Alt` → opens a quick menu of folders for navigation.
+  - `Ctrl + R` → search the command history.
 
 
 
-## 🚀 Objetivo
+## 🚀 Objective
 
-Manter minhas configurações do Arch Linux organizadas, versionadas e fáceis de restaurar em qualquer máquina.
+Keeping my Arch Linux settings organized, versioned, and easy to restore on any machine.
 
-## 🤝 Contribuições
+## 🤝 Contributions
 
-Sinta-se à vontade para abrir Issues ou Pull Requests com melhorias e sugestões.
+Feel free to open Issues or Pull Requests with improvements and suggestions.
 
-## 📄 Licença
+## 📄 License
 
 MIT License
