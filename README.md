@@ -22,10 +22,6 @@ My personal Arch Linux setup using Hyprland.
 
 Before applying the dotfiles, install the necessary packages:
 
-## 📦 Installing dependencies
-
-## 📦 Installing dependencies
-
 ```bash
 sudo pacman -S hyprland hyprpaper waybar kitty nautilus zsh blueman bluez bluez-utils swaync fastfetch ttf-jetbrains-mono-nerd
 ```
