@@ -22,8 +22,22 @@ My personal Arch Linux setup using Hyprland.
 
 Before applying the dotfiles, install the necessary packages:
 
+## 📦 Installing dependencies
+
 ```bash
-sudo pacman -S ttf-jetbrains-mono-nerd nautilus hyprpaper waybar zsh cava cmatrix tty-clock git curl
+sudo pacman -S \
+hyprland \
+hyprpaper \
+waybar \
+kitty \
+nautilus \
+zsh \
+blueman \
+bluez \
+bluez-utils \
+swaync \
+fastfetch \
+ttf-jetbrains-mono-nerd
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
@@ -60,6 +74,7 @@ Simply set monitor, image and cover mode.
 - **Zsh plugins and shortcuts**:
   - `Alt + C` → opens a quick menu of folders for navigation.
   - `Ctrl + R` → search the command history.
+  - `google <what you want to search>` to open a Google search directly from the terminal.
 
 
 
