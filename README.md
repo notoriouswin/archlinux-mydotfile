@@ -58,7 +58,7 @@ Simply set monitor, image and cover mode.
 - **cmatrix**: start like this for blue theme (`cmatrix -C blue`)
 - **tty-clock**: start like this for blue theme, seconds, and time in center (`tty-clock -c -s -C 4`).
 - **Zsh plugins and shortcuts**:
-  - `Ctrl + Alt` → opens a quick menu of folders for navigation.
+  - `Alt + C` → opens a quick menu of folders for navigation.
   - `Ctrl + R` → search the command history.
 
 
