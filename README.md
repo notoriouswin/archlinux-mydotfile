@@ -24,21 +24,13 @@ Before applying the dotfiles, install the necessary packages:
 
 ## 📦 Installing dependencies
 
-```bash
-sudo pacman -S \
-hyprland \
-hyprpaper \
-waybar \
-kitty \
-nautilus \
-zsh \
-blueman \
-bluez \
-bluez-utils \
-swaync \
-fastfetch \
-ttf-jetbrains-mono-nerd
+## 📦 Installing dependencies
 
+```bash
+sudo pacman -S hyprland hyprpaper waybar kitty nautilus zsh blueman bluez bluez-utils swaync fastfetch ttf-jetbrains-mono-nerd
+```
+
+```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
